@@ -7,7 +7,7 @@ module.exports = {
     target: 'node',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'ecc.min.js',
+        filename: 'logger.min.js',
         libraryTarget: 'umd',
         globalObject: 'this',
         library: 'logger',
